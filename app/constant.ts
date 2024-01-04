@@ -91,7 +91,7 @@ Latex inline: $x^2$
 Latex block: $$e=mc^2$$
 `;
 
-export const SUMMARIZE_MODEL = "gpt-3.5-turbo";
+export const SUMMARIZE_MODEL = "mistralai/Mixtral-8x7B-Instruct-v0.1";
 
 export const KnowledgeCutOffDate: Record<string, string> = {
   default: "2021-09",
@@ -125,23 +125,23 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "gpt-3.5-turbo",
+    name: "mistralai/Mixtral-8x7B-Instruct-v0.1",
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-0613",
+    name: "mistralai/Mixtral-8x7B-Instruct-v0.1-0613",
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-1106",
+    name: "mistralai/Mixtral-8x7B-Instruct-v0.1-1106",
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-16k",
+    name: "mistralai/Mixtral-8x7B-Instruct-v0.1-16k",
     available: true,
   },
   {
-    name: "gpt-3.5-turbo-16k-0613",
+    name: "mistralai/Mixtral-8x7B-Instruct-v0.1-16k-0613",
     available: true,
   },
 ] as const;
