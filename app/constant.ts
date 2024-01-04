@@ -129,19 +129,19 @@ export const DEFAULT_MODELS = [
     available: true,
   },
   {
-    name: "mistralai/Mixtral-8x7B-Instruct-v0.1-0613",
+    name: "cognitivecomputations/dolphin-2.6-mixtral-8x7b",
     available: true,
   },
   {
-    name: "mistralai/Mixtral-8x7B-Instruct-v0.1-1106",
+    name: "01-ai/Yi-34B-Chat",
     available: true,
   },
   {
-    name: "mistralai/Mixtral-8x7B-Instruct-v0.1-16k",
+    name: "Phind/Phind-CodeLlama-34B-v2",
     available: true,
   },
   {
-    name: "mistralai/Mixtral-8x7B-Instruct-v0.1-16k-0613",
+    name: "openchat/openchat_3.5",
     available: true,
   },
 ] as const;
