@@ -167,8 +167,8 @@ export class AgentApi {
     if (serverConfig.baseUrl) baseUrl = serverConfig.baseUrl;
     if (reqBaseUrl?.startsWith("http://") || reqBaseUrl?.startsWith("https://"))
       baseUrl = reqBaseUrl;
-    if (!baseUrl.endsWith("/v1"))
-      baseUrl = baseUrl.endsWith("/") ? `${baseUrl}v1` : `${baseUrl}/v1`;
+    //if (!baseUrl.endsWith("/v1"))
+    //  baseUrl = baseUrl.endsWith("/") ? `${baseUrl}v1` : `${baseUrl}/v1`;
     console.log("[baseUrl]", baseUrl);
     return baseUrl;
   }
