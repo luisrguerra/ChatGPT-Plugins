@@ -89,8 +89,8 @@ async function handle(req: NextRequest) {
       reqBody.baseUrl?.startsWith("https://")
     )
       baseUrl = reqBody.baseUrl;
-    if (!baseUrl.endsWith("/v1"))
-      baseUrl = baseUrl.endsWith("/") ? `${baseUrl}v1` : `${baseUrl}/v1`;
+    //if (!baseUrl.endsWith("/v1"))
+    //  baseUrl = baseUrl.endsWith("/") ? `${baseUrl}v1` : `${baseUrl}/v1`;
     console.log("[baseUrl]", baseUrl);
 
     const handler = BaseCallbackHandler.fromMethods({
